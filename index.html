@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meu Portfólio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <div class="brand-name">LUÍSA MAGALHÃES</div>
+      <a class="contact-email" href="mailto:lfm3@cesar.school">lfm3@cesar.school</a>
+    </div>
+
+    <nav class="header-right" aria-label="Navegação principal">
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="menuList">☰</button>
+      <ul id="menuList" class="menu-list">
+        <li><a href="#info" class="menu-info">Informações</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+        
+      <h1 class="hero-title" aria-hidden="true">
+        PORTFÓLIO
+        <span class="title-duplicate">PORTFÓLIO</span>
+      </h1>
+
+      <figure class="hero-photo" role="img" aria-label="Foto">
+        <img src="luisa.png.jpg" alt="Minha foto" />
+      </figure>
+
+      <section class="hero-copy">
+        <p class="intro">
+          Sou Luísa, estudante do primeiro período de Ciência da computação na Cesar School
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/luisamagalhaess?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+            <img src="linkedin.jpg" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/luisamagalhaess" target="_blank">
+            <img src="github.png" alt="GitHub">
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <section id="info" class="info-section">
+    <h2>Sobre mim</h2>
+    <p>
+      Olá! Me chamo Luísa, tenho 18 anos e sou estudante do primeiro período de Ciência da computação. Tenho interesse nas áreas de Análise de dados, Machine Learning e Cibersegurança.
+      Gosto de aprender coisas novas, desenvolver projetos e explorar ideias criativas.
+    </p>
+
+    <h2>O que me inspira</h2>
+    <p>
+      Sou inspirada pela possibilidade de resolver problemas reais com código, transformar conceitos complexos em soluções simples, aprender algo novo todos os dias e pela sensação única de construir algo do zero e ver funcionando. É isso que me motiva a continuar criando, explorando e evoluindo na área da tecnologia.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
